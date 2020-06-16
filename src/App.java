@@ -37,13 +37,12 @@ public class App extends JFrame {
     public App() {
         setContentPane(contentPane);
       //  setModal(true);
-//        getRootPane().setDefaultButton(buttonOK);
-//
-//        buttonOK.addActionListener(new ActionListener() {
-//            public void actionPerformed(ActionEvent e) {
-//                onOK();
-//            }
-//        });
+
+
+        //добавил ещё чуть-чуть комментариев
+
+
+
 //
 //        buttonCancel.addActionListener(new ActionListener() {
 //            public void actionPerformed(ActionEvent e) {
