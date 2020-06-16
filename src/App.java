@@ -34,6 +34,10 @@ public class App extends JFrame {
     private JButton exit;
     private JLabel lres;
 
+
+    //Новая ветка от br
+    //Пытаюсь разобраться с ветками на GitHub
+
     public App() {
         setContentPane(contentPane);
       //  setModal(true);
