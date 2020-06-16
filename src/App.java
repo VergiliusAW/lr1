@@ -76,6 +76,9 @@ public class App extends JFrame {
     }
 
     public static void main(String[] args) {
+
+        System.out.println("Привет, запускаю программму…");
+
         App dialog = new App();
         dialog.pack();
         dialog.setResizable(false); // Отключение возможности менять размер окна
