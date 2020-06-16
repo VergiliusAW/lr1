@@ -56,6 +56,9 @@ public class App extends JFrame {
         //добавил код и удалил код
 
 
+        String str = "Првиет, я новая строка";
+        System.out.println(str);
+        
         // call onCancel() on ESCAPE
         contentPane.registerKeyboardAction(new ActionListener() {
             public void actionPerformed(ActionEvent e) { onExit(); }
