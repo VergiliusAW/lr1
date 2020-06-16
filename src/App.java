@@ -50,6 +50,9 @@ public class App extends JFrame {
 //            }
 //        });
 //
+
+        //трыц тыц телевизор
+
 //        // call onCancel() when cross is clicked
 //        setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 //        addWindowListener(new WindowAdapter() {
