@@ -34,24 +34,27 @@ public class App extends JFrame {
     private JButton exit;
     private JLabel lres;
 
+
+    //Новая ветка от br
+    //Пытаюсь разобраться с ветками на GitHub
+
     public App() {
         setContentPane(contentPane);
       //  setModal(true);
 
-//
-//        buttonCancel.addActionListener(new ActionListener() {
-//            public void actionPerformed(ActionEvent e) {
-//                onCancel();
-//            }
-//        });
-//
-//        // call onCancel() when cross is clicked
-//        setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
-//        addWindowListener(new WindowAdapter() {
-//            public void windowClosing(WindowEvent e) {
-//                onCancel();
-//            }
-//        });
+
+        //добавил ещё чуть-чуть комментариев
+
+
+//.......
+
+
+        //добавил ещё комментариев
+
+        //пук
+
+        //добавил код и удалил код
+
 
         // call onCancel() on ESCAPE
         contentPane.registerKeyboardAction(new ActionListener() {
@@ -77,6 +80,12 @@ public class App extends JFrame {
     }
 
     public static void main(String[] args) {
+
+        System.out.println("Привет, запускаю программму…");
+
+        System.out.println("Привет, запускаю телевизор…");
+
+
         App dialog = new App();
         dialog.pack();
         dialog.setResizable(false); // Отключение возможности менять размер окна
