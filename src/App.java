@@ -49,13 +49,9 @@ public class App extends JFrame {
 //            }
 //        });
 //
-//        // call onCancel() when cross is clicked
-//        setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
-//        addWindowListener(new WindowAdapter() {
-//            public void windowClosing(WindowEvent e) {
-//                onCancel();
-//            }
-//        });
+
+        //добавил код и удалил код
+
 
         // call onCancel() on ESCAPE
         contentPane.registerKeyboardAction(new ActionListener() {
