@@ -38,10 +38,6 @@ public class App extends JFrame {
         setContentPane(contentPane);
       //  setModal(true);
 
-
-        //добавил ещё чуть-чуть комментариев
-
-
 //
 //        buttonCancel.addActionListener(new ActionListener() {
 //            public void actionPerformed(ActionEvent e) {
